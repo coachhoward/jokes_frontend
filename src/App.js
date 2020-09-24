@@ -10,7 +10,7 @@ export default function App() {
   });
   const getJokes = async ()=>{
     try{
-      const response = await fetch('http://localhost:3000/jokes');
+      const response = await fetch('https://dadjokes-app-api.herokuapp.com/jokes');
       const data = await response.json();
       setJokes(data)
     }catch(error){
@@ -33,7 +33,7 @@ export default function App() {
     event.preventDefault();
     try {
       const response = await axios.post(
-        'http://localhost:3000/jokes',
+        'https://dadjokes-app-api.herokuapp.com/jokes',
         formInputs
       );
       const createdJoke = response.data
