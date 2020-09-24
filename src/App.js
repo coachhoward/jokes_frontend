@@ -53,7 +53,7 @@ export default function App() {
             <nav>
               <h4>Post A Clean Joke</h4>
               <form onSubmit={handleSubmit}>
-                <label htmlFor="author">Write A Joke</label>
+                <label htmlFor="author">Author</label>
                 <input
                   type="text"
                   id="author"
