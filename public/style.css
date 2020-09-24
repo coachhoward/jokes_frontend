@@ -35,7 +35,7 @@ body {
   }
   
   nav, aside {
-    background-color: #C2C8CD;
+    background-color: #71a3cc;
   }
   
   form {
@@ -60,7 +60,7 @@ body {
   .notice {
     margin: 5px;
     padding: 5px 15px 5px 15px;
-    background-color: #E4E1DE;
+    background-color: #704316;
     border-radius: 5px;
   }
   
